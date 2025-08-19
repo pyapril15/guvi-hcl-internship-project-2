@@ -2,6 +2,9 @@
 
 A full-stack real-time chat application built with React, Express, WebSocket, MongoDB, and TypeScript. Features private messaging, group chats, typing indicators, online presence, and more.
 
+<img src="assets/screenshot.png" height="400" />
+<img src="assets/screenshot_db.png" width="400" />
+
 ## 📋 Features
 
 - **Real-time messaging** with native WebSocket
@@ -71,10 +74,10 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB
-MONGODB_URI=mongodb+srv://codelabpraveen:1I7N3xOcgVg7UXau@nodejschatapplicationcl.bk2nwkv.mongodb.net/chatapp?retryWrites=true&w=majority
+MONGODB_URI=test_with_your_mongodb_uri
 
 # JWT
-JWT_SECRET=your-super-secret-jwt-key-here-make-it-long-and-random
+JWT_SECRET=your-super-secret-jwt-key-here
 JWT_EXPIRES_IN=7d
 
 # CORS
