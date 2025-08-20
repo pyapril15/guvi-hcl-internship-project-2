@@ -21,7 +21,6 @@ A full-stack real-time chat application built with React, Express, WebSocket, Mo
 ```
 ├── backend/          # Express + WebSocket + MongoDB
 ├── frontend/         # React + Vite + TypeScript
-├── shared/           # Shared TypeScript types
 └── README.md
 ```
 
@@ -53,8 +52,8 @@ A full-stack real-time chat application built with React, Express, WebSocket, Mo
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd realtime-chat-app
+git clone https://github.com/pyapril15/guvi-hcl-internship-project-2.git
+cd guvi-hcl-internship-project-2
 
 # Install backend dependencies
 cd backend
@@ -109,10 +108,6 @@ npm run dev
 
 Visit `http://localhost:5173` to use the app!
 
-## 🌐 Production Deployment
-
-### Backend (Render/Railway/Heroku)
-
 1. **Deploy backend** to your platform:
    ```bash
    cd backend
@@ -125,7 +120,6 @@ Visit `http://localhost:5173` to use the app!
    - `JWT_SECRET=your-production-jwt-secret`
    - `CORS_ORIGIN=https://your-frontend-domain.vercel.app`
 
-### Frontend (Vercel/Netlify)
 
 1. **Update frontend environment**:
    ```env
