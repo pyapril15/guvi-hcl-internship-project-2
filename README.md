@@ -108,32 +108,6 @@ npm run dev
 
 Visit `http://localhost:5173` to use the app!
 
-1. **Deploy backend** to your platform:
-   ```bash
-   cd backend
-   # Push to your deployment platform
-   ```
-
-2. **Set environment variables**:
-   - `NODE_ENV=production`
-   - `MONGODB_URI=your-production-mongodb-uri`
-   - `JWT_SECRET=your-production-jwt-secret`
-   - `CORS_ORIGIN=https://your-frontend-domain.vercel.app`
-
-
-1. **Update frontend environment**:
-   ```env
-   VITE_API_URL=https://your-backend.onrender.com/api
-   VITE_WS_URL=wss://your-backend.onrender.com
-   ```
-
-2. **Deploy frontend**:
-   ```bash
-   cd frontend
-   npm run build
-   # Deploy dist/ folder to Vercel/Netlify
-   ```
-
 ## 📱 Usage
 
 1. **Register/Login** - Create an account or sign in
@@ -141,24 +115,6 @@ Visit `http://localhost:5173` to use the app!
 3. **Real-time Features** - See typing indicators, online status
 4. **Group Chats** - Create rooms and invite multiple users
 5. **Media Sharing** - Upload images and files in chats
-
-## 🔧 Development
-
-### Backend Commands
-```bash
-npm run dev        # Start development server
-npm run build      # Build for production
-npm start          # Start production server
-npm run lint       # Run ESLint
-```
-
-### Frontend Commands
-```bash
-npm run dev        # Start development server
-npm run build      # Build for production
-npm run preview    # Preview production build
-npm run lint       # Run ESLint
-```
 
 ## 🧪 API Endpoints
 
@@ -198,7 +154,3 @@ MIT License - see LICENSE file for details
 3. Commit your changes
 4. Push to the branch
 5. Open a Pull Request
-
-## 📞 Support
-
-For support, email support@chatapp.com or create an issue in the repository.
